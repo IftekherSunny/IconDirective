@@ -18,13 +18,13 @@ Sun\IconDirective\IconDirectiveServiceProvider::class,
 
 ## Basic Uses
 
-Get fontawesome icon in the blade template.
+To add fontawesome icon in your blade template just use @icon directive and pass the fontawesome icon name.
 
 ```html
 @icon('github')
 ```
 
-Added extra classes with the @icon directive.
+Optionally, you can add extra classes for the fontawesome icon.
 
 ```html
 @icon('github', 'fa-5x', 'blue')
