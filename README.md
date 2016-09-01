@@ -20,13 +20,13 @@ Sun\IconDirective\IconDirectiveServiceProvider::class,
 
 Get fontawesome icon in the blade template.
 
-```
+```html
 @icon('github')
 ```
 
-Added extra classes with the fontawesome icon.
+Added extra classes with the @icon directive.
 
-```
+```html
 @icon('github', 'fa-5x', 'blue')
 ```
 
@@ -34,7 +34,7 @@ Added extra classes with the fontawesome icon.
 
 In the blade template
 
-```
+```html
 <button class="btn btn-primary">
     @icon('save') Save
 </button>
@@ -42,7 +42,7 @@ In the blade template
 
 This code snippet will render as shown below
 
-```
+```html
 <button class="btn btn-primary">
     <i class="fa fa-save" aria-hidden="true"></i> Save
 </button>
