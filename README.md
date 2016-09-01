@@ -9,7 +9,7 @@ The icon directive provides @icon directive to use fontawesome icon in the blade
 Icon directive is available via Composer/Packagist.
 
 ```
-composer require sun/country
+composer require sun/icon-directive
 ```
 
 Add the ServiceProvider to the providers array in config/app.php
