@@ -32,7 +32,7 @@ class Icon
     protected function getIconAndExtraClassesName($expression)
     {
         $iconAndExtraClasses = array_map(function($name) {
-            return preg_replace("/ ?'?/", '', $name);
+            return preg_replace("/ ?'?\\(?\\)?/", '', $name);
         }, explode(",", $expression));
 
         return [
