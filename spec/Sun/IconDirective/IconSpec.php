@@ -17,5 +17,9 @@ class IconSpec extends ObjectBehavior
         $this->getHtmlMarkUp("'github'")->shouldBe('<i class="fa fa-github" aria-hidden="true"></i>');
 
         $this->getHtmlMarkUp("'github', 'fa-lg'")->shouldBe('<i class="fa fa-github fa-lg" aria-hidden="true"></i>');
+
+        $this->getHtmlMarkUp("('github')")->shouldBe('<i class="fa fa-github" aria-hidden="true"></i>');
+
+        $this->getHtmlMarkUp("('github', 'fa-lg')")->shouldBe('<i class="fa fa-github fa-lg" aria-hidden="true"></i>');
     }
 }
